@@ -1,4 +1,13 @@
-# aws-assignment
+**Table of Contents**
+* [Built using](#built-using)
+* [Installation](#installation)
+  * [Terraform infra](#terraform-infra)
+  * [Ansible infra](#ansible-infra)
+* [Implementation](#implementation)
+  * [Terraform](#terraform)
+  * [Ansible](#ansible)
+* [Gotchas](#gotchas)
+  
 # Built using
 
 * Ansible (v2.5.3)
