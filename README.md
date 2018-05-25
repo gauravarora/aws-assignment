@@ -82,7 +82,7 @@
 * Use A alias records for EC2 hostnames in route53
 * Firgure out how to setup Windows password from terraform (just refuses to work right now)
 * Use a apache role in ansible apache playbook to follow best practices
-* Diagram explaining the architecture
+* ~Diagram explaining the architecture~
 
 ---
 
