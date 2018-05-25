@@ -1,3 +1,5 @@
+# AWS Assignment
+
 **Table of Contents**
 * [Built using](#built-using)
 * [Access](#access)
@@ -7,6 +9,7 @@
 * [Implementation](#implementation)
   * [Terraform](#terraform)
   * [Ansible](#ansible)
+* [Architecture](#architecture)
 * [Improvements](#improvements)
 * [Gotchas](#gotchas)
 
@@ -61,6 +64,11 @@
 ## Ansible
 * `apache.yml` - Downloads and sets up apache2 server, copies the default `index.html` from a template
 * `iis.yml` - Downloads and sets up IIS, sets up a site, copies the  default `index.html` and deletes the default site
+
+---
+
+# Architecture
+![architecture](https://raw.githubusercontent.com/gauravarora/aws-assignment/master/architecture.png "Architecture diagram")
 
 ---
 
