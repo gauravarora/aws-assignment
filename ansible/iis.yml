@@ -1,0 +1,18 @@
+---
+- name: Install IIS
+  hosts: windows
+  gather_facts: true
+  roles:
+    - role: cchurch.win-iis
+      iis_site_name: 'Default Web Site'
+      iis_site_state: absent
+    - role: cchurch.win-iis
+      iis_site_name: 'aws-assignment'
+      iis_site_path: 'D:\www\aws-assignment'
+      #iis_bindings:
+      #  - port: 8080
+  tasks:
+    - name: "copy index"
+      win_copy:
+        src: index.windows.html-v2
+        dest: "D:\\www\\aws-assignment\\index.html"

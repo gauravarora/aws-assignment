@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h3>Hello AWS World - running on IIS - on port 80</h3>
+        <img src="https://cdn.wheredowe.party/windows-screenshot1.png" width="960px" />
+        <hr />
+        <img src="https://cdn.wheredowe.party/windows-screenshot2.png" width="960px" />
+        <hr />
+        <img src="https://cdn.wheredowe.party/windows-screenshot3.png" width="1060px" />
+
+    </body>
+</html>
