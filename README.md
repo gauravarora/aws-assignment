@@ -73,6 +73,10 @@
 ---
 
 # Improvements
+* Tighter IAM permissions
+  * Limited EC2 access (region/az/instance type?)
+  * S3 access (maybe don't allow file/bucket delete but that will mess with teardown)
+  * Route53 (limit to hosted zone)
 * Link terraform and ansible so the host entries don't have to be updated manually in ansible `hosts`
 * Discover ACM certificate in terraform for Cloudfront distribution automatically
 * Use a `variables.tf` file for terraform variables so they are centralised
